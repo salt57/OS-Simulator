@@ -127,7 +127,7 @@ var res,pro;
 						{
 							for(var j = 0; j < res; j++)
 							{
-								avail[j] = avail[j] - alloc[i][j];
+// 								avail[j] = avail[j] - alloc[i][j];
 								needy[i][j] = needy[i][j] - alloc[i][j];
 							}
 						}
